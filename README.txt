@@ -1,17 +1,17 @@
 # Pastiche
 Pastiche is a software system for detecting plagiarism. Provide the name of a directory containing the files as input, and it returns a sorted list of pairs based on a measure of similarity. Two files are similar if their score is high\
-Note: The files have to be in a ".txt" format\
-\
+Note: The files have to be in a ".txt" format
+
 Here are sample outputs:
-\
-java Pastiche C:\\...\\alice\data-1 LinkedWordMap Jaccard
+---------------------------------------------------------------------
+java Pastiche C:\...\alice\data-1 LinkedWordMap Jaccard
 average score is 100.00%
 
 100.00%, content-1.txt, content-2.txt
 102 ms
 
-
-java Pastiche C:\\...\\alice\\data-2 LinkedWordMap Jaccard
+---------------------------------------------------------------------
+java Pastiche C:\...\alice\\data-2 LinkedWordMap Jaccard
 average score is 66.92%
 
 99.98%, content-a.txt, content-g.txt
@@ -36,6 +36,3 @@ average score is 66.92%
 41.01%, content-a.txt, content-b.txt
 41.00%, content-b.txt, content-g.txt
 513 ms
-\
-\
-
